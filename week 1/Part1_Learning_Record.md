@@ -1,51 +1,51 @@
-# Week 01 — Part 1 学习记录
+# Week 01 — Part 1 Learning Record
 
-学习资源：Hacking with Swift — [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
+Learning resource: Hacking with Swift — [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
 
-目标：完成 Day 1–7，学习 Swift 基础，为文字艺术 Playground 做准备。
+Goal: Complete Days 1–7 and learn Swift fundamentals in preparation for the text-art Playground.
 
-## Day 1：变量、常量、字符串和数字
+## Day 1: Variables, Constants, Strings, and Numbers
 
-学习 `var`、`let`、`String`、`Int`、`Double`、`Bool`、字符串插值和类型标注。变量、字符串、数字和布尔值与 p5.js / ICM 相似，所以较好理解。卡点是 Swift 严格区分类型，以及 `let` 创建的值不能修改。
+Studied `var`, `let`, `String`, `Int`, `Double`, `Bool`, string interpolation, and type annotations. Variables, strings, numbers, and booleans are similar to p5.js / ICM, so they were relatively easy to understand. The main difficulty was that Swift checks types strictly, and values created with `let` cannot be changed.
 
-学习时间：约 1 小时
+Study time: about 1 hour
 
-## Day 2：数组、集合、元组、字典和枚举
+## Day 2: Arrays, Sets, Tuples, Dictionaries, and Enums
 
-数组和 p5.js / JavaScript 的 array 很像。卡点是 Swift 的字典、集合和枚举有更明确的类型要求，而且数组下标从 0 开始。
+Arrays are very similar to arrays in p5.js / JavaScript. The difficult parts were that Swift dictionaries, sets, and enums have clearer type requirements, and array indexes start at 0.
 
-学习时间：约 1 小时
+Study time: about 1 hour
 
-## Day 3：运算符和条件判断
+## Day 3: Operators and Conditions
 
-学习数学运算、比较运算、`if`、`else`、`switch`、三元运算符和 range operators。`if` 和比较符号与 p5.js 相似；卡点是 `switch` 和 `1...5`、`1..<5` 的区别。
+Studied arithmetic operators, comparison operators, `if`, `else`, `switch`, the ternary operator, and range operators. `if` statements and comparison operators are similar to p5.js. The main difficulties were the syntax of `switch` and the difference between `1...5` and `1..<5`.
 
-学习时间：约 1 小时
+Study time: about 1 hour
 
-## Day 4：循环
+## Day 4: Loops
 
-学习 `for`、`while`、`repeat`、`break` 和 `continue`。循环逻辑和 p5.js 的 `for` 很像。卡点是 Swift 的 range 写法，后来通过打印数字测试理解了区别。
+Studied `for`, `while`, `repeat`, `break`, and `continue`. The logic of loops is very similar to p5.js. The main difficulty was Swift range syntax. I understood it by printing numbers and comparing the results.
 
-学习时间：约 1 小时
+Study time: about 1 hour
 
-## Day 5：函数、参数和返回值
+## Day 5: Functions, Parameters, and Return Values
 
-自定义函数和 p5.js 的 `function` 很像。卡点是 Swift 要写参数类型，例如 `name: String`，调用函数时还可能需要参数标签；`-> String` 表示函数返回文字。
+Custom functions are similar to JavaScript / p5.js `function`. The difficult parts were writing parameter types, such as `name: String`, and using parameter labels when calling a function. I learned that `-> String` means that a function returns a string.
 
-学习时间：约 1.5 小时
+Study time: about 1.5 hours
 
-## Day 6：闭包基础
+## Day 6: Closures Part One
 
-学习创建闭包、给闭包传入参数、返回结果，以及把闭包保存到变量中。闭包和 JavaScript / p5.js 的匿名函数或 callback 相似。卡点是 Swift 闭包中的参数类型和 `in` 的位置。
+Studied how to create closures, pass parameters to closures, return values from closures, and store closures in variables. Closures are similar to anonymous functions or callbacks in JavaScript / p5.js. The difficult parts were closure parameter types and the position of `in`.
 
-学习时间：约 1 小时
+Study time: about 1 hour
 
-## Day 7：闭包进阶
+## Day 7: Closures Part Two
 
-学习把闭包作为函数参数、尾随闭包、多参数闭包、返回闭包和捕获外部变量。callback 的想法和 JavaScript 类似；卡点是 Swift 的 trailing closure 语法，以及闭包如何捕获外部变量。
+Studied passing closures as function parameters, trailing closure syntax, closures with multiple parameters, returning closures, and capturing external values. The idea of callbacks is similar to JavaScript. The difficult parts were Swift's trailing closure syntax and how closures capture values from outside.
 
-学习时间：约 1.5 小时
+Study time: about 1.5 hours
 
-## 本周总结
+## Weekly Summary
 
-总学习时间：约 8 小时。变量、`for` loop 和函数已经用在 Part 2 的文字艺术中。下一步继续学习 structs、properties 和 methods，并把本记录链接到课程 wiki。
+Total study time: about 8 hours. I used variables, a `for` loop, and functions in the Part 2 text-art Playground. Next, I plan to study structs, properties, and methods, and then link this record on the course wiki.

@@ -1,35 +1,55 @@
-// Week 01 — Part 2: Text Art
+// Week 01 — Part 2: Generative Text Art
 // Part 1 learning record: Part1_Learning_Record.md
-// This Playground demonstrates variables, functions, and a for-loop.
-// Learning issue: 1...5 includes 5; 1..<5 does not include 5.
+// This pattern is generated with arrays, loops, conditions, and calculations.
 
-let title = "TIFFANY"
-let lineSymbol = "-"
-let lineLength = 51
+let word = Array("TIFFANY")
+let filledCharacter = "#"
+let emptyCharacter = " "
+let rows = 7
+let columns = 5
 
-func printLine(symbol: String, length: Int) {
-    print(String(repeating: symbol, count: length))
-}
-
-func printTiffanyArt() {
-    let art = [
-        "TTTTT  III  FFFFF  FFFFF    A    N   N  Y   Y",
-        "  T     I   F      F        A A   NN  N   Y Y ",
-        "  T     I   F      F       A   A  N N N    Y  ",
-        "  T     I   FFFF   FFFF    AAAAA  N  NN    Y  ",
-        "  T     I   F      F       A   A  N   N    Y  ",
-        "  T     I   F      F       A   A  N   N    Y  ",
-        "  T    III  F      F       A   A  N   N    Y  "
-    ]
-
-    print(title)
-    printLine(symbol: lineSymbol, length: lineLength)
-
-    for row in art {
-        print(row)
+func shouldFill(letter: Character, row: Int, column: Int) -> Bool {
+    switch letter {
+    case "T":
+        return row == 0 || column == columns / 2
+    case "I":
+        return row == 0 || row == rows - 1 || column == columns / 2
+    case "F":
+        return row == 0 || row == rows / 2 || column == 0
+    case "A":
+        return (row == 0 && column > 0 && column < columns - 1)
+            || row == rows / 2
+            || (column == 0 && row > 0)
+            || (column == columns - 1 && row > 0)
+    case "N":
+        return column == 0 || column == columns - 1 || column == row - 1
+    case "Y":
+        return (row < rows / 2 && (column == row || column == columns - 1 - row))
+            || (row >= rows / 2 && column == columns / 2)
+    default:
+        return false
     }
-
-    printLine(symbol: lineSymbol, length: lineLength)
 }
 
-printTiffanyArt()
+func printWordPattern() {
+    for row in 0..<rows {
+        var line = ""
+
+        for letter in word {
+            for column in 0..<columns {
+                if shouldFill(letter: letter, row: row, column: column) {
+                    line += filledCharacter
+                } else {
+                    line += emptyCharacter
+                }
+            }
+
+            line += "  "
+        }
+
+        print(line)
+    }
+}
+
+print("Generated pattern: \(String(word))")
+printWordPattern()

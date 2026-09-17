@@ -16,6 +16,14 @@ Studied access control (`private`), static properties and methods, and how struc
 
 Study time: about 1.5 hours
 
+## Notes: Multi-line String Literals (`"""`)
+
+Used triple-quoted strings (`"""..."""`) to write the ASCII art for `stem` and `body` in `MyPlayground.playground`.
+
+A regular string (`"..."`) can only hold one line — a real line break has to be inserted manually as `\n`, which is hard to read and edit for something like ASCII art where every line and space matters. A multi-line string lets you type the text across several lines exactly as it should look when printed, and Swift stores it with the real line breaks included — no `\n` needed.
+
+Two rules worth remembering: the opening `"""` must be followed immediately by a line break (nothing else on that line), and the indentation of the closing `"""` is stripped from every line, so the code itself can stay indented without adding extra leading spaces to the string content. A `"` can be typed directly inside a multi-line string without escaping, but `\` still needs to be written as `\\`, same as in a regular string.
+
 ## Issues
 
 ### Invalid escape sequence in string literal

@@ -1,1 +1,11 @@
 # molab-2026-itp-Tiffany
+
+Mobile App Development Lab coursework.
+
+| Week | Project | Learning record |
+| --- | --- | --- |
+| 01 | [Swift Playground](week%201/MyPlayground.playground) | [Learning Record](week%201/Part1_Learning_Record.md) |
+| 02 | [ASCII Art Playground](week%202/MyPlayground.playground) | [Learning Record](week%202/Learning_Record.md) |
+| 03 | [Pattern Try](week%203/Pattern%20Try) | [Learning Record](week%203/Learning_Record.md) |
+| 04 | [Study Timer](week%204/Study%20Timer) | [Learning Record](week%204/Learning_Record.md) |
+| 05 | [Study Timer Storage](week%205/Study%20Timer%20Storage) | [Learning Record](week%205/Learning_Record.md) |

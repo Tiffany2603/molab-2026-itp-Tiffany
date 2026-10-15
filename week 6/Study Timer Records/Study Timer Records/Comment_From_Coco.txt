@@ -1,0 +1,5 @@
+I think the app is easy to navigate, with clear functions that make it simple to use.
+
+Especially I like that users can enter their names and see personalized messages.
+
+Since it’s a study timer, it reminds me of the Pomodoro timer. Maybe you could add a few preset durations so users can quickly choose a study session length.

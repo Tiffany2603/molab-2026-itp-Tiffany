@@ -9,3 +9,4 @@ Mobile App Development Lab coursework.
 | 03 | [Pattern Try](week%203/Pattern%20Try) | [Learning Record](week%203/Learning_Record.md) |
 | 04 | [Study Timer](week%204/Study%20Timer) | [Learning Record](week%204/Learning_Record.md) |
 | 05 | [Study Timer Storage](week%205/Study%20Timer%20Storage) | [Learning Record](week%205/Learning_Record.md) |
+| 06 | [Study Timer Records](week%206/Study%20Timer%20Records) | [Learning Record](week%206/Learning_Record.md) |

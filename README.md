@@ -12,10 +12,10 @@ Mobile App Development Lab coursework.
 | 06 | [Study Timer Records](week%206/Study%20Timer%20Records) | [Learning Record](week%206/Learning_Record.md) |
 
 
-Midterm checklist
--[] weekly description of homework progress/challenges in your wiki page
--[] added jht9629-nyu as collab on your repo
--[] uploaded at least one photo in MoGallery TestFlight App
--[] able to build and run example apps own iPhone
--[] installed Xcode 26
--[] watched at least one WWDC video
+- Midterm checklist
+  - [] weekly description of homework progress/challenges in your wiki page
+  - [] added jht9629-nyu as collab on your repo
+  - [] uploaded at least one photo in MoGallery TestFlight App
+  - [] able to build and run example apps own iPhone
+  - [] installed Xcode 26
+  - [] watched at least one WWDC video

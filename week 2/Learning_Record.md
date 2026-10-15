@@ -39,4 +39,4 @@ Fix: replace every single `\` in the pattern with `\\`, for example:
 
 ## Weekly Summary
 
-Total study time: about 3 hours on structs (Days 8–9), plus the ASCII Text Art Playground, which used string operations (`split`, `map`, `max`), `for` loops, string interpolation, and multi-line string literals to combine two ASCII art pieces into a pumpkin. Next, I plan to study classes and how they compare to structs.
+Total study time: about 3 hours on structs (Days 8–9), plus the ASCII Text Art Playground, which used string operations (*split*, *map*, *max*), `for` loops, string interpolation, and multi-line string literals to combine two ASCII art pieces into a pumpkin. Next, I plan to study classes and how they compare to structs.

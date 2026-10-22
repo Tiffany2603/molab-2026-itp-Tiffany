@@ -10,13 +10,15 @@ Mobile App Development Lab coursework.
 | 04 | [Study Timer](week%204/Study%20Timer) | [Learning Record](week%204/Learning_Record.md) |
 | 05 | [Study Timer Storage](week%205/Study%20Timer%20Storage) | [Learning Record](week%205/Learning_Record.md) |
 | 06 | [Study Timer Records](week%206/Study%20Timer%20Records) | [Learning Record](week%206/Learning_Record.md) |
+| 07 | [Photo Compare](week%207/Photo%20Compare) | [Learning Record](week%207/Learning_Record.md) |
 
 
-- Midterm checklist
-  - [] weekly description of homework progress/challenges in your wiki page
-  - [] added jht9629-nyu as collab on your repo
-  - [] uploaded at least one photo in MoGallery TestFlight App
-  - [] able to build and run example apps own iPhone
-  - [] installed Xcode 27
-  - [] watched at least one WWDC video
-  - [ ] Upload profile photo to HOS-Lobby app
+## Midterm checklist
+
+- [ ] weekly description of homework progress/challenges in your wiki page
+- [x] added jht9629-nyu as collab on your repo
+- [x] uploaded at least one photo in MoGallery TestFlight App
+- [x] able to build and run example apps own iPhone
+- [x] installed Xcode 27
+- [ ] watched at least one WWDC video
+- [ ] Upload profile photo to HOS-Lobby app

@@ -15,7 +15,7 @@ Mobile App Development Lab coursework.
 
 ## Midterm checklist
 
-- [ ] weekly description of homework progress/challenges in your wiki page
+- [x] weekly description of homework progress/challenges in your wiki page
 - [x] added jht9629-nyu as collab on your repo
 - [x] uploaded at least one photo in MoGallery TestFlight App
 - [x] able to build and run example apps own iPhone

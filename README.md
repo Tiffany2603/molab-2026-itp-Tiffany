@@ -20,4 +20,4 @@ Mobile App Development Lab coursework.
 - [x] uploaded at least one photo in MoGallery TestFlight App
 - [x] able to build and run example apps own iPhone
 - [x] installed Xcode 27
-- [ ] watched at least one WWDC video
+- [x] watched at least one WWDC video

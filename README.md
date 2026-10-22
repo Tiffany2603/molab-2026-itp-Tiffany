@@ -21,4 +21,3 @@ Mobile App Development Lab coursework.
 - [x] able to build and run example apps own iPhone
 - [x] installed Xcode 27
 - [ ] watched at least one WWDC video
-- [ ] Upload profile photo to HOS-Lobby app

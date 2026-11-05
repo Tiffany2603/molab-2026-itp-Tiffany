@@ -12,6 +12,7 @@ Mobile App Development Lab coursework.
 | 06 | [Study Timer Records](week%206/Study%20Timer%20Records) | [Learning Record](week%206/Learning_Record.md) |
 | 07 | [Photo Compare](week%207/Photo%20Compare) | [Learning Record](week%207/Learning_Record.md) |
 | 08 | [Grid Camera](week%208/Grid%20Camera) | [Learning Record](week%208/Learning_Record.md) |
+| 09 | [Peer Help Lobby](week%209/README.md) | [Learning Record](week%209/Learning_Record.md) |
 
 
 ## Midterm checklist

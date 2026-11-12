@@ -12,10 +12,6 @@ My idea is to connect these pieces in one place. With permission to access the u
 
 I want the mobile experience to make it easy to check progress during the day, respond to something that needs attention, or review notes before an interview.
 
-<img src="assets/application-dashboard.png" alt="Earlier application dashboard concept" width="320">
-
-*Earlier dashboard concept. The planned version keeps the overview and focuses on application updates and preparation. Automatic submission and batch-progress controls shown in this earlier design are outside the initial prototype.*
-
 ## What I want to build
 
 ### Email updates
@@ -48,6 +44,10 @@ The dashboard would show:
 - Applications grouped by their current stage.
 
 Tapping a number would open the relevant list. Individual applications would have a timeline of updates. Progress would be shown through stages and counts rather than a percentage that suggests the hiring process has a predictable endpoint.
+
+<img src="assets/application-dashboard.png" alt="Earlier application dashboard concept" width="320">
+
+*Earlier dashboard concept. The planned version keeps the overview and focuses on application updates and preparation. Automatic submission and batch-progress controls shown in this earlier design are outside the initial prototype.*
 
 ### Messages and reminders
 

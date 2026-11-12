@@ -12,7 +12,7 @@ My idea is to connect these pieces in one place. With permission to access the u
 
 I want the mobile experience to make it easy to check progress during the day, respond to something that needs attention, or review notes before an interview.
 
-![Earlier application dashboard concept](assets/application-dashboard.png)
+<img src="assets/application-dashboard.png" alt="Earlier application dashboard concept" width="320">
 
 *Earlier dashboard concept. The planned version keeps the overview and focuses on application updates and preparation. Automatic submission and batch-progress controls shown in this earlier design are outside the initial prototype.*
 

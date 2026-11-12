@@ -129,15 +129,9 @@ This project builds on my earlier [Job Application Automation Proposal](https://
 
 ## Week-by-week work plan
 
-This plan follows the [course schedule](https://github.com/molab-itp/content-2026-itp#time--location--dates). The core prototype will test the flow from an authorized email to an application update, an actionable task, a reminder, and user-confirmed completion. The experience library and interview-answer flow will be developed alongside it as time allows. This is planned work; the proposal does not report these integrations as completed.
-
-| Course week | Focus | Planned work and deliverable |
-| --- | --- | --- |
-| Week 10 — Proposal | Define the project | Describe the user problem, main screens, reminder rules, and technical approach. Submit the proposal and dashboard concept, and choose the core email-to-reminder flow for the prototype. |
-| Week 11 — Nov 12 | App structure and records | Build the SwiftUI navigation, dashboard, application list, and detail views. Define application, task, and experience data models. Add manual application entry and test Acknowledged and Completed as separate task states using sample data. Deliver a navigable app with editable records. |
-| Week 12 — Nov 19 | Cloud data and AI extraction | Connect Firebase Authentication and Firestore so each account has its own records. Test AI extraction on selected sample job emails, including confirmations, replies, assessments, rejections, and unclear dates. Preserve source links and show uncertain information for review. Deliver a saved application-and-task flow from sample email content. |
-| Between Weeks 12 and 13 — Nov 20–Dec 2 | Email access and reminders | Connect Gmail through OAuth with authorized test accounts. Add server-side email checking, prevent duplicate updates, and test task creation and phone notifications. Check completion before follow-up reminders. Deliver an email-to-task-to-notification flow on an iPhone. |
-| Week 13 — Dec 3 | Preparation and end-to-end testing | Add text-based experience entries and generate an editable interview-answer draft from selected experiences and a job description. Check source references. Test the whole core flow, including corrections, completed tasks, account disconnection, and notification settings. Try voice input and one file format if the core flow is stable. |
-| Week 14 — Dec 10 | Final presentation | Fix issues, make the dashboard and task details clear, and prepare the demonstration and documentation. Show which functions work, what still needs development, and how the app uses mobile notifications and on-the-go access. |
-
-Remaining document formats, broader voice-input support, and automatic job searching or submission can be explored after the core prototype. They will not be presented as completed features unless implemented and tested.
+- **Week 10:** Decide on the idea and write the proposal.
+- **Week 11:** Build the main screens and add manual application records.
+- **Week 12:** Connect the database and test AI with job emails.
+- **Between Weeks 12 and 13:** Connect Gmail and add task reminders.
+- **Week 13:** Add the experience library and interview answers, then test the app.
+- **Week 14:** Fix bugs and prepare the final presentation.

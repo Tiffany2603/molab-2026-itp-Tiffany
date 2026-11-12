@@ -13,6 +13,7 @@ Mobile App Development Lab coursework.
 | 07 | [Photo Compare](week%207/Photo%20Compare) | [Learning Record](week%207/Learning_Record.md) |
 | 08 | [Grid Camera](week%208/Grid%20Camera) | [Learning Record](week%208/Learning_Record.md) |
 | 09 | [Peer Help Lobby](week%209/README.md) | [Learning Record](week%209/Learning_Record.md) |
+| 10 | [AI Job Application Assistant](week%2010/README.md) | [Learning Record](week%2010/Learning_Record.md) |
 
 
 ## Midterm checklist
